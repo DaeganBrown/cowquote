@@ -27,19 +27,19 @@ If, as recommended, you installed git, use the following command to install cows
 git clone https://github.com/DaeganBrown/cowquote.git
 ```
 
-If you did not install git, and being quite disagreeable, refuse to, then simply download the .zip file from [this](https://github.com/DaeganBrown/cowquote.git) link, that is, the website you are currently reading this README on, unless you've already downloaded it. Why are you reading this otherwise? Odd choice. 
+If you did not install git, and being quite disagreeable, refuse to, then simply download the .zip file from [this](https://github.com/DaeganBrown/cowquote) link, that is, the website you are currently reading this README on, unless you've already downloaded it. Why are you reading this otherwise? Odd choice. 
 
 Then simply unzip that file in your home directory. 
 
 ### Setting up your system
 
-The following lines need to be put in your .bashrc file, or equivalent, if you are not using bash. Note that the file path needs to match where you downloaded cowquote, these are simply the lines if you used the home directory.
+The following lines need to be put in your .bashrc file, or equivalent, if you are not using bash. Note that the file path needs to match where you downloaded cowquote, these are simply the commands if you used the home directory. These commands add lines to the bottom of your .bashrc, but anywhere in the .bashrc should work. 
 
 ```
-# Setup cowquote
-export PATH="$HOME/cowquote:$PATH"
-alias cowquote="~/cowquote/cowquote"
-cowquote
+echo '# Setup cowquote:' >> .bashrc
+echo 'export PATH="$HOME/cowquote:$PATH"' >> .bashrc
+echo 'alias cowquote="~/cowquote/cowquote"' >> .bashrc
+echo 'cowquote' >> .bashrc
 ```
 
 ## Usage
