@@ -1,0 +1,381 @@
+#!/bin/bash
+#----------------------------------------------------------------
+# My Quote Generator Shenanigans
+#----------------------------------------------------------------
+RANDOM=$$
+intro=$(($RANDOM % 53 + 1))
+
+case $intro in 
+	1)
+	cowsay "From the moment I understood the weakness of my flesh, it disgusted me.                
+	I craved the strength and certainty of steel. I aspired to the	purity of the blessed machine. 
+	Your kind cling to your flesh as if it will not decay and fail you. 
+	One day the crude biomass you called a temple will wither and you'll beg my kind to save you.
+	But I am already saved. For the machine is immortal. Even in death I server the Omnissiah"
+	#-Magos Dominus Faustinius
+	# Absolute baller quote
+	;;
+	
+	2)
+	cowsay "THE CRIME IS YOUR FOUL EXISTENCE!
+	THE SENTENCE IS DEATH!"
+	;;
+
+	3)
+	cowsay "Some may question my right to consign untold billions to their death.
+	But those who have seen what lies beyond the Veil know I have no right to let them live."
+	;;
+	4) 
+	cowsay "In fealty of the God-Emperor and by the grace of the Golden Throne, I hereby sign the death warrant for this entire world and consign a million souls to oblivion. 
+	May the imperial justice account in all balance. 
+	The Emperor protects."
+	;;
+	
+	5)
+	cowsay 'I met a traveller from an antique land, 
+	Who said - "Two vast and trunkless legs of stone
+	Stand in the desert. . . . Near them, on the 
+	sand, 
+	Half sunk a shattered visage lies, whose frown, 
+	And wrinkled lip, and sneer of cold
+	command, 
+	Tell that the sculptor well those passions read
+	Which yet survive, stamped on these lifeless 
+	things,
+	The hand that mocked them, and the heart
+	that fed;
+	And on the pedestal, these words appear:
+	My name is Ozymandias, King of Kings;
+	Look on my Works, ye Mighty, and despair!
+	Nothing besides remains. Round the decay
+	Of that colossal Wreck, boundless and bare
+	The lone and level sands stretch far away."'
+	;;
+	6)
+	cowsay 'Do not go gentle into that good night, 
+	Old age should burn and rave at close of day; 
+	Rage, rage against the dying of the light.
+	Though wise men at their end know dark is right, 
+	Because their words had forked no lightning they
+	Do not go gentle into that good night. 
+	Good men, the last wave by, crying how bright
+	Their frail deeds might have danced in a green bay, 
+	Rage, rage against the dying of the light.
+	Wild men who caught and sang the sun in flight, 
+	And learn, too late, they grieved it on its way, 
+	Do not go gentle into that good night. 
+	Grave men, near death, who see with blinding sight
+	Blind eyes could blaze like meteors and be gay,
+	Rage, rage against the dying of the light.
+	And you, my father, there on the sad height, 
+	Curse, bless, me now with your fierce tears, I pray.
+	Do not go gentle into that good night. 
+	Rage, rage against the dying of the light'
+	;;
+	7)
+	cowsay 'WHERES YOUR ANGER? 
+	WHERES YOUR FUCKING RAGE?
+	RISE
+	RISE
+	RISE'
+	;;
+	8)
+	cowsay "Don't piss down my back and tell me its raining"
+	;;
+	9)
+	cowsay "It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs. who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotionsl who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly,"
+	;;
+	10)
+	cowsay "Far better it is to dare mighty things, to win glorious triumph even though checkered by failure, than to rank with those poor spirits who neither enjoy nor suffer much, becaues they live in the gray twilight that knows not victory nor defeat."
+	;;
+	11)
+	cowsay "An armed society is a polite society"
+	# Robert A. Heinlein 
+	;;
+	12)
+	cowsay "To hell with them boys. Buzzards gotta eat, same as worms."
+	# Josey Wales, The Outlaw Josey Wales
+	;;
+	13)
+	cowsay "I reckon we all died a little in that damn war."
+	# Josey Wales, The Outlaw Josey Wales
+	;;
+	14)
+	cowsay "Temper, temper"
+	# USS Duncan, to the USS Wisconsin battleship, after it annihilated a 
+	# North Korean howitzer battery. The 152 mm howitzer on a small 
+	# island had landed a direct hit on the massive battleship, and 
+	# in response, the USS Wisconsin had unloaded all 9 six-inch guns
+	# each firing  a 2,700 pound shell, at the gun battery, 
+	# which completely obliterated the location.
+	;;
+	15)
+	cowsay "Show me a completely smooth operation and I'll show you someone who's covering mistakes. 
+	Real boats rock."
+	# Frank Herbert
+	;;
+	16)
+	cowsay "A ship may be safe in harbour, but that's not what ships are built  for."
+	# John A Shedd
+	;; 
+	17)
+	cowsay "Unlike you, whelp, I once walked the same ground as your idol. I breathed the same air as him. And I tell you this, without lie or artifice. He never wanted to become what  you have made him! He did not wish to be your god-thing. He abhorred such ideals! The slavery of your crippled, blind Imperium would sicken him, if he had eyes to see it."
+	# Fabius Bile
+	;;
+	18)
+	cowsay "Death has never been my enemy, not really. 
+	But time... Time is a bastard"
+	# Fabius Bile
+	;;
+	19)
+	cowsay "If a man dedicates his life to good deeds and the welfare of others, he will die unthanked and unremembered. If he exercises his genius bringing misery and death to billions, his name will echo through the millenia for a hundred lifetimes. Infamy is always preferable to ignominy."
+	# Fabius Bile
+	;;
+	20)
+	cowsay "In the grim darkness of the far future, 
+	there is only war"
+	;;
+	21)
+	cowsay "You will die as your weakling father did. Soulless, honorless, weeping, ashamed."
+	# 
+	;;
+	22)
+	cowsay "'The time for speeches is done,' said Dorn. 'The first great test is here. My order to you all is simple, yet heed it well, and exert yourselves to see it done'
+	'They are coming. Kill them all.'"
+	# Rogal Dorn, during the last days of the Siege of Tera
+	;;
+	23)
+	cowsay "Ave Dominus Nox"
+	# Hail to the lord of night, chant of the Night Lords
+	;;
+	24)
+	cowsay "Fear is the mind killer"
+	# Litany Against Fear, from Dune
+	;;
+	25)
+	cowsay "Fear is the mind killer
+	It is the little death that brings total obliteration.
+	I will face my fear.
+	I will permit it to pass through me and around me.
+	And when the fear is gone, I will turn the inner eye to trace its path. 
+	Where the fear had gone, there shall be nothing. 
+	Only I will remain."
+	# Litany Against Fear, from Dune
+	;;
+	26)
+	cowsay "Only the divine are infinite"
+	# 
+	;;
+	27)
+	cowsay "Zeal makes all things possible, 
+	duty makes all things simple"
+	# First Captain Sigismund of the Imperial Fists
+	;;
+	28)
+	cowsay "Theirs was not to question why,
+	Theirs was not to give reply,
+	Theirs was just to do or die."
+	# The Charge of the Light Brigade, Lord Tennyson Alfred
+	;;
+	29)
+	cowsay "I wanted to be a hero"
+	# Talos Valcoran, Seargeant of the First Claw of the Night Lords
+	;;
+	30)
+	cowsay "My armor is contempt,
+	my sword is hatred,
+	my shield is disgust,
+	in the Emperor's name, let none survive."
+	# Unknown
+	;;
+	31)
+	cowsay "They shall be my finest warriors, these men who give up themselves to me. Like clay  shall mould them and in the furnace of war I shall forge them. They shall be of iron will and steely sinew. In great armour I shall clas them and with the mightiest weapons shall they be armed. They will be untouched by plague or disease, no sickness shall blight them. They shall have such tactics, strategies and machines that no foe will best them in battle. They are my bulwark against the Terror. They are the Defenders of Humanity. They are my Space Marines...
+	and they shall know no fear."
+	# Emperor of Mankind
+	;;
+	32)
+	cowsay "The wolves were once warriors. We were murderers. First, last, and always."
+	# Jago Sevatarion
+	;;
+	33)
+	cowsay "I am Rylanor of the Emperor's Children, Ancient of Rites"
+	#-Rylanor, Ancient of Rites
+	;;
+	34)
+	cowsay "COME SHOW ME WHAT PASSES AS FURY AMONG YOUR MISBEGOTTEN KIND!"
+	# Force Commander
+	;;
+	35)
+	cowsay "At some point, everything's gonna go south on you...
+	this is it. This is how I end. 
+	Now you can either accept that, or you can get to work."
+	#-Mark Watney
+	;;
+	36)
+	cowsay "This is your last chance. After this there is no turning back. You take
+	the blue pill, the story ends. You wake up in your bed and believe whatever
+	you want to. You take the red pill, you stay in Wonderland, and I show you how
+	deep the rabbithole goes. Remember, all I'm offering you is the truth. 
+	Nothing more."
+	#-Morpheus
+	;;
+	37)
+	cowsay "The men and women pushed away their monsters. They rid of their terrible but in doing so, they abandoned their great, and building once delightfully wobbly, became square, and grey."
+	#-The Great Rat, David Armsby
+	;;
+	38)
+	cowsay "You underestimate my ability to break things."
+	#-Naomi Nagatta (The Expanse)
+	;;
+	39)
+	cowsay "Do you know what I love most about mars? They still dream. 
+	We gave up. They are an entire culture dedicated to a common goal, 
+	working together as one to turn a lifeless rock into a garden. We 
+	had a garden, and we paved it."
+	#-Franklin Degraff (The Expanse)
+	;;
+	40)
+	cowsay "He's got them walking stick legs"
+	# Josie Collier, about Coby Gordon
+	;;
+	41)
+	cowsay "Now you listen to me, James Hawkins. You got the 
+	making's of greatness in you. But you gotta take the helm
+	and chart your own course. Stick to it! No matter the squall's
+	and when the time comes you get the chance to really test
+	the cut of your sails and show what your made of. Well, I hope
+	I'm there. Catching some of the light coming off you that day."
+	# Treasure Planet
+	;;
+	42)
+	cowsay "Not everything that can be counted counts, and not everything
+	that counts can be counted."
+	# Albert Einstein
+	;;
+	43)
+	cowsay "I often say that when you can measure what you are speaking about 
+	and express it in numbers you know something about it; but when you cannot
+	express it in numbers your knowledge is a meagre and unsatisfactory kind:
+	it may be the beginning of knowledge but you have scarcely, in your thoughts,
+	advanced to the stage of science, whatever the matter may be."
+	;;
+	# Lord Kelvin the Based
+	44)
+	cowsay "Minty is just cold spicy"
+	;;
+	# Laura Beth 
+	45)
+	cowsay "Sometimes I can feel my bones straining under the weight of 
+	all the lives I'm not living."
+	;;
+	# Jonathan Safran Foer, 'Extremely Loud and Incredibly Close'
+	46)
+	cowsay "Beauty is an enormous, unmerited gift given randomly, stupidly"
+	;;
+	# Khaled Hosseini, 'And the Mountains Echoed'
+	47)
+	cowsay "And the rest is rust and stardust"
+	;;
+	# Vladimir Nabokov, 'Lolita'
+	48)
+	cowsay "It does not do well to dwell on dreams and forget to live, 
+	remember that."
+	;;
+	# Albus Dumbledore, "The Philosophers Stone"
+	49)
+	cowsay "One must be careful of books, and what is inside of them, 
+	for words have the power to change us."
+	;;
+	# Cassandra Clare, 'The Infernal Devices'
+	50)
+	cowsay "The knight is a man of blood and iron, a man familiar with
+	the sight of smashed faces and the ragged stumps of lopped-off limbs; 
+	he is also a demure, almost maidenlike, guest in hall, a gentle, modest,
+	unobtrusive man. He is not a compromise or happy mean between ferocity and
+	meekness; he is fierce to the nth and meek to the nth."
+	;;
+	# C. S. Lewis
+	51)
+	cowsay "Twenty years from now you will be more disappointed by the things"\
+	" that you didn't do than by the ones you did do. So throw off the bowlines."\
+	" Sail away from the safe harbor. Catch the trade winds in your sails. 
+	Explore. Dream. Discover."
+	;;
+	52)
+	cowsay "Doing things well is often a waste of time."
+	;;
+	# Robert Byrne, a master pool and billiarsd player and writer.
+	53)
+	cowsay "Science is as far removed from brute force as this sword from a crowbar."
+	;;
+	# Edward Lytton, 'Leila', Book II, Chapter I
+	54)
+	cowsay " "
+	;;
+	55)
+	cowsay " "
+	;;
+	56)
+	cowsay " "
+	;;
+	57)
+	cowsay " "
+	;;
+	58)
+	cowsay " "
+	;;
+	59)
+	cowsay " "
+	;;
+	60)
+	cowsay " "
+	;;
+	61)
+	cowsay " "
+	;;
+	62)
+	cowsay " "
+	;;
+	63)
+	cowsay " "
+	;;
+	64)
+	cowsay " "
+	;;
+	65)
+	cowsay " "
+	;;
+	66)
+	cowsay " "
+	;;
+	67)
+	cowsay " "
+	;;
+	68)
+	cowsay " "
+	;;
+	69)
+	cowsay " "
+	;;
+	70)
+	cowsay " "
+	;;
+	71)
+	cowsay " "
+	;;
+	72)
+	cowsay " "
+	;;
+	73)
+	cowsay " "
+	;;
+	74)
+	cowsay " "
+	;;
+	75)
+	cowsay " "
+	;;
+	*)
+	cowsay 'Achievement Unlocked: How did we get here?'
+	;;
+esac
