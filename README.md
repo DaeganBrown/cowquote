@@ -38,7 +38,6 @@ The following lines need to be put in your .bashrc file, or equivalent, if you a
 ```
 echo '# Setup cowquote:' >> .bashrc
 echo 'export PATH="$HOME/cowquote:$PATH"' >> .bashrc
-echo 'alias cowquote="~/cowquote/cowquote"' >> .bashrc
 echo 'cowquote' >> .bashrc
 ```
 
@@ -48,13 +47,19 @@ Now, every time you open or resource a terminal, it will give you a random quote
 
 ### Adding more quotes
 
-As of writing this, there are 53 quotes. I have some empty space there, as well as a default case, for any who wish to add their own quotes. I will also be periodically adding more quotes as they are given to me or as I find them, so be sure to check up on the repo every now and then. 
+As of writing this, there are 56 quotes. I have some empty space there, as well as a default case, for any who wish to add their own quotes. I will also be periodically adding more quotes as they are given to me or as I find them, so be sure to check up on the repo every now and then. 
 
 ### Suggesting more quotes, or other changes
 
 If you have a quote you would like to see added to the repo for everyone, raise an issue on this repo with your recommendation. If I like it, I will add it. 
 
 If you have other issues, please feel free to let me know! I appreciate any and all feedback, and might even take feedback into consideration. 
+
+## Current Things being worked on
+
+- [ ] Licensing
+- [ ] Fixing string formatting to prevent irregular display
+- [ ] Potential config to change cow into other avatars
 
 ## License
 

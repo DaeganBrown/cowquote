@@ -3,7 +3,7 @@
 # My Quote Generator Shenanigans
 #----------------------------------------------------------------
 RANDOM=$$
-intro=$(($RANDOM % 53 + 1))
+intro=$(($RANDOM % 56 + 1))
 
 case $intro in 
 	1)
@@ -12,10 +12,9 @@ case $intro in
 	Your kind cling to your flesh as if it will not decay and fail you. 
 	One day the crude biomass you called a temple will wither and you'll beg my kind to save you.
 	But I am already saved. For the machine is immortal. Even in death I server the Omnissiah"
+	;;
 	#-Magos Dominus Faustinius
 	# Absolute baller quote
-	;;
-	
 	2)
 	cowsay "THE CRIME IS YOUR FOUL EXISTENCE!
 	THE SENTENCE IS DEATH!"
@@ -90,68 +89,68 @@ case $intro in
 	;;
 	11)
 	cowsay "An armed society is a polite society"
-	# Robert A. Heinlein 
 	;;
+	# Robert A. Heinlein 
 	12)
 	cowsay "To hell with them boys. Buzzards gotta eat, same as worms."
-	# Josey Wales, The Outlaw Josey Wales
 	;;
+	# Josey Wales, The Outlaw Josey Wales
 	13)
 	cowsay "I reckon we all died a little in that damn war."
-	# Josey Wales, The Outlaw Josey Wales
 	;;
+	# Josey Wales, The Outlaw Josey Wales
 	14)
 	cowsay "Temper, temper"
+	;;
 	# USS Duncan, to the USS Wisconsin battleship, after it annihilated a 
 	# North Korean howitzer battery. The 152 mm howitzer on a small 
 	# island had landed a direct hit on the massive battleship, and 
 	# in response, the USS Wisconsin had unloaded all 9 six-inch guns
 	# each firing  a 2,700 pound shell, at the gun battery, 
 	# which completely obliterated the location.
-	;;
 	15)
 	cowsay "Show me a completely smooth operation and I'll show you someone who's covering mistakes. 
 	Real boats rock."
-	# Frank Herbert
 	;;
+	# Frank Herbert
 	16)
 	cowsay "A ship may be safe in harbour, but that's not what ships are built  for."
-	# John A Shedd
 	;; 
+	# John A Shedd
 	17)
 	cowsay "Unlike you, whelp, I once walked the same ground as your idol. I breathed the same air as him. And I tell you this, without lie or artifice. He never wanted to become what  you have made him! He did not wish to be your god-thing. He abhorred such ideals! The slavery of your crippled, blind Imperium would sicken him, if he had eyes to see it."
-	# Fabius Bile
 	;;
+	# Fabius Bile
 	18)
 	cowsay "Death has never been my enemy, not really. 
 	But time... Time is a bastard"
-	# Fabius Bile
 	;;
+	# Fabius Bile
 	19)
 	cowsay "If a man dedicates his life to good deeds and the welfare of others, he will die unthanked and unremembered. If he exercises his genius bringing misery and death to billions, his name will echo through the millenia for a hundred lifetimes. Infamy is always preferable to ignominy."
-	# Fabius Bile
 	;;
+	# Fabius Bile
 	20)
 	cowsay "In the grim darkness of the far future, 
 	there is only war"
 	;;
 	21)
 	cowsay "You will die as your weakling father did. Soulless, honorless, weeping, ashamed."
-	# 
 	;;
+	# 
 	22)
 	cowsay "'The time for speeches is done,' said Dorn. 'The first great test is here. My order to you all is simple, yet heed it well, and exert yourselves to see it done'
 	'They are coming. Kill them all.'"
-	# Rogal Dorn, during the last days of the Siege of Tera
 	;;
+	# Rogal Dorn, during the last days of the Siege of Tera
 	23)
 	cowsay "Ave Dominus Nox"
-	# Hail to the lord of night, chant of the Night Lords
 	;;
+	# Hail to the lord of night, chant of the Night Lords
 	24)
 	cowsay "Fear is the mind killer"
-	# Litany Against Fear, from Dune
 	;;
+	# Litany Against Fear, from Dune
 	25)
 	cowsay "Fear is the mind killer
 	It is the little death that brings total obliteration.
@@ -160,84 +159,84 @@ case $intro in
 	And when the fear is gone, I will turn the inner eye to trace its path. 
 	Where the fear had gone, there shall be nothing. 
 	Only I will remain."
-	# Litany Against Fear, from Dune
 	;;
+	# Litany Against Fear, from Dune
 	26)
 	cowsay "Only the divine are infinite"
-	# 
 	;;
+	# 
 	27)
 	cowsay "Zeal makes all things possible, 
 	duty makes all things simple"
-	# First Captain Sigismund of the Imperial Fists
 	;;
+	# First Captain Sigismund of the Imperial Fists
 	28)
 	cowsay "Theirs was not to question why,
 	Theirs was not to give reply,
 	Theirs was just to do or die."
-	# The Charge of the Light Brigade, Lord Tennyson Alfred
 	;;
+	# The Charge of the Light Brigade, Lord Tennyson Alfred
 	29)
 	cowsay "I wanted to be a hero"
-	# Talos Valcoran, Seargeant of the First Claw of the Night Lords
 	;;
+	# Talos Valcoran, Seargeant of the First Claw of the Night Lords
 	30)
 	cowsay "My armor is contempt,
 	my sword is hatred,
 	my shield is disgust,
 	in the Emperor's name, let none survive."
-	# Unknown
 	;;
+	# Unknown
 	31)
 	cowsay "They shall be my finest warriors, these men who give up themselves to me. Like clay  shall mould them and in the furnace of war I shall forge them. They shall be of iron will and steely sinew. In great armour I shall clas them and with the mightiest weapons shall they be armed. They will be untouched by plague or disease, no sickness shall blight them. They shall have such tactics, strategies and machines that no foe will best them in battle. They are my bulwark against the Terror. They are the Defenders of Humanity. They are my Space Marines...
 	and they shall know no fear."
-	# Emperor of Mankind
 	;;
+	# Emperor of Mankind
 	32)
 	cowsay "The wolves were once warriors. We were murderers. First, last, and always."
-	# Jago Sevatarion
 	;;
+	# Jago Sevatarion
 	33)
 	cowsay "I am Rylanor of the Emperor's Children, Ancient of Rites"
-	#-Rylanor, Ancient of Rites
 	;;
+	#-Rylanor, Ancient of Rites
 	34)
 	cowsay "COME SHOW ME WHAT PASSES AS FURY AMONG YOUR MISBEGOTTEN KIND!"
-	# Force Commander
 	;;
+	# Force Commander
 	35)
 	cowsay "At some point, everything's gonna go south on you...
 	this is it. This is how I end. 
 	Now you can either accept that, or you can get to work."
-	#-Mark Watney
 	;;
+	#-Mark Watney
 	36)
 	cowsay "This is your last chance. After this there is no turning back. You take
 	the blue pill, the story ends. You wake up in your bed and believe whatever
 	you want to. You take the red pill, you stay in Wonderland, and I show you how
 	deep the rabbithole goes. Remember, all I'm offering you is the truth. 
 	Nothing more."
-	#-Morpheus
 	;;
+	#-Morpheus
 	37)
 	cowsay "The men and women pushed away their monsters. They rid of their terrible but in doing so, they abandoned their great, and building once delightfully wobbly, became square, and grey."
-	#-The Great Rat, David Armsby
 	;;
+	#-The Great Rat, David Armsby
 	38)
 	cowsay "You underestimate my ability to break things."
-	#-Naomi Nagatta (The Expanse)
 	;;
+	#-Naomi Nagatta (The Expanse)
 	39)
 	cowsay "Do you know what I love most about mars? They still dream. 
 	We gave up. They are an entire culture dedicated to a common goal, 
 	working together as one to turn a lifeless rock into a garden. We 
 	had a garden, and we paved it."
-	#-Franklin Degraff (The Expanse)
 	;;
+	#-Franklin Degraff (The Expanse)
 	40)
 	cowsay "He's got them walking stick legs"
-	# Josie Collier, about Coby Gordon
 	;;
+	# Josie Collier, about Coby Gordon
 	41)
 	cowsay "Now you listen to me, James Hawkins. You got the 
 	making's of greatness in you. But you gotta take the helm
@@ -245,13 +244,13 @@ case $intro in
 	and when the time comes you get the chance to really test
 	the cut of your sails and show what your made of. Well, I hope
 	I'm there. Catching some of the light coming off you that day."
-	# Treasure Planet
 	;;
+	# Treasure Planet
 	42)
 	cowsay "Not everything that can be counted counts, and not everything
 	that counts can be counted."
-	# Albert Einstein
 	;;
+	# Albert Einstein
 	43)
 	cowsay "I often say that when you can measure what you are speaking about 
 	and express it in numbers you know something about it; but when you cannot
@@ -310,14 +309,19 @@ case $intro in
 	;;
 	# Edward Lytton, 'Leila', Book II, Chapter I
 	54)
-	cowsay " "
+	cowsay "Whatever man prays for, he prays for a miracle. "\
+	"Every prayer reduces itself to this-
+	Great God, grant that twice two be not four."
 	;;
+	# Ivan Turgenev, Russian novelist and short-story writer
 	55)
-	cowsay " "
+	cowsay "Pulvis es et in pulverrem reverteris"
 	;;
+	# Genesis 3:19 
 	56)
-	cowsay " "
+	cowsay "For you are dust, and to dust you shall return"
 	;;
+	# Genesis 3:19
 	57)
 	cowsay " "
 	;;
