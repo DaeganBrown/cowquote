@@ -229,8 +229,7 @@ case $intro in
 	#
 	# He said that to Abaddon, the Despoiler, in reference to Horus Lupercal's fate
 	# at the end of the Siege of Terra. Sigismund was perhaps the greatest of his age. 
-	2
-	#2)
+	22)
 	cowsay "'The time for speeches is done,' said Dorn. 'The first great test is here. My order to you all is simple, yet heed it well, and exert yourselves to see it done'
 	'They are coming. Kill them all.'"
 	;;
@@ -596,4 +595,6 @@ case $intro in
 	*)
 	cowsay 'Achievement Unlocked: How did we get here?'
 	;;
+	# What have you done?
+	# Also, play minecraft.
 esac

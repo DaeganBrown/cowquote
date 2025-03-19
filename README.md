@@ -57,11 +57,11 @@ If you have other issues, please feel free to let me know! I appreciate any and 
 
 ## Current Things being worked on
 
-- [ ] Licensing
-- [ ] Fixing string formatting to prevent irregular display
+- [x] Licensing
+- [x] Fixing string formatting to prevent irregular display
+- [ ] More quotes, always
 - [ ] Potential config to change cow into other avatars
 
 ## License
 
-This is intended as an open source project. I have yet to add the license, or if I have added the license, I forgot to change these lines. Either way, please raise on issue on the repo to let me know. 
-Much appreciated!
+This is intended as an open source project. It has the MIT license, so you can use it as you want, with attribution.
