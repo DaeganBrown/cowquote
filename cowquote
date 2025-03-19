@@ -3,33 +3,43 @@
 # My Quote Generator Shenanigans
 #----------------------------------------------------------------
 RANDOM=$$
-intro=$(($RANDOM % 56 + 1))
+intro=$(($RANDOM % 59 + 1))
 
 case $intro in 
 	1)
-	cowsay "From the moment I understood the weakness of my flesh, it disgusted me.                
-	I craved the strength and certainty of steel. I aspired to the	purity of the blessed machine. 
+	cowsay "From the moment I understood the weakness of my flesh, it disgusted me.             
+	I craved the strength and certainty of steel. I aspired to the	purity of the blessed machine.  
 	Your kind cling to your flesh as if it will not decay and fail you. 
-	One day the crude biomass you called a temple will wither and you'll beg my kind to save you.
+	One day the crude biomass you called a temple will wither and you'll beg my kind to save you. 
 	But I am already saved. For the machine is immortal. Even in death I server the Omnissiah"
 	;;
-	#-Magos Dominus Faustinius
-	# Absolute baller quote
+	# -Magos Dominus Faustinius
+	# 
+	# Absolutely legendary quote, used in the opening to the quite wonderful adeptus mechanicus game
+	# Iconic, and one of the best known and most effective ethos of the group
 	2)
-	cowsay "THE CRIME IS YOUR FOUL EXISTENCE!
+	cowsay "THE CRIME IS YOUR FOUL EXISTENCE! 
 	THE SENTENCE IS DEATH!"
 	;;
-
+	# -Victor Saltzpyre
+	# 
+	# From the Warhammer End Times: Witch Hunter novel, quote speaks for itself really.
 	3)
 	cowsay "Some may question my right to consign untold billions to their death.
 	But those who have seen what lies beyond the Veil know I have no right to let them live."
 	;;
+	# -Dude about to obliterate a planet
+	# 
+	# Battlefleet Gothic: Armada, Exterminatus cutscene.  
 	4) 
 	cowsay "In fealty of the God-Emperor and by the grace of the Golden Throne, I hereby sign the death warrant for this entire world and consign a million souls to oblivion. 
 	May the imperial justice account in all balance. 
 	The Emperor protects."
 	;;
-	
+	#
+	#
+	# Dawn of War II: Retribution
+	# Like the one before, this quote is really showing of 40k as a whole. 
 	5)
 	cowsay 'I met a traveller from an antique land, 
 	Who said - "Two vast and trunkless legs of stone
@@ -50,6 +60,13 @@ case $intro in
 	Of that colossal Wreck, boundless and bare
 	The lone and level sands stretch far away."'
 	;;
+	# -Percy Bysshe Shelley, 'Ozymandias'
+	# 
+	# This poem is formative for me. It was the poem that made me love poetry. 
+	# The origin of this poem are when Percy Shelley and Horace Smith had a competition 
+	# wherein they both created a poem on the Egyptian Pharoah Ramesses II, whose Greek
+	# name was 'Ozymandias'
+	# A great piece on hubris and mortality, and the ever-advancing force of time.
 	6)
 	cowsay 'Do not go gentle into that good night, 
 	Old age should burn and rave at close of day; 
@@ -71,6 +88,11 @@ case $intro in
 	Do not go gentle into that good night. 
 	Rage, rage against the dying of the light'
 	;;
+	# -Dylan Thomas, "Do not go gentle into that good night"
+	#
+	# This poem has always been one of my favorites, despite people 
+	# often speaking about dying peacefully, I think it is important to 
+	# fight against that unnatural blight.
 	7)
 	cowsay 'WHERES YOUR ANGER? 
 	WHERES YOUR FUCKING RAGE?
@@ -78,79 +100,162 @@ case $intro in
 	RISE
 	RISE'
 	;;
+	# From the song 'After The Eulogy' by BoySetsFire
+	#
+	# A truly boiled-down refrain of the punk genre. Song is alright, 
+	# but this line sticks with me. 
 	8)
 	cowsay "Don't piss down my back and tell me its raining"
 	;;
+	# -Fletcher, "The Outlaw Josey Wales"
+	#
+	# I use this more than I should in everyday speech. Essentially, 
+	# calling bullshit in a more colorful way. 
 	9)
 	cowsay "It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs. who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotionsl who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly,"
 	;;
+	# -Theodore Roosevelt
+	#
+	# Given at a speech at the Sorbonne, in Paris, in 1910. Just one of the great things
+	# Teddy has said and done. It is important to remember, that the most hardest and most
+	# crucial part of doing something is starting, getting 'in the arena' as he would say.
 	10)
 	cowsay "Far better it is to dare mighty things, to win glorious triumph even though checkered by failure, than to rank with those poor spirits who neither enjoy nor suffer much, becaues they live in the gray twilight that knows not victory nor defeat."
 	;;
+	# -Theodore Roosevelt
+	#
+	# Another of the great quotes of Teddy. Better to fail gloriously than succeed in
+	# something mediocre. Words to live by, words to die by.
 	11)
 	cowsay "An armed society is a polite society"
 	;;
-	# Robert A. Heinlein 
+	# -Robert A. Heinlein 
+	#
+	# Robert Heinlein is an interesting person, and he wrote several interesting books.
+	# The most famous of which is Starship Troopers, because of the movie, 
+	# which of course has very little in common with the book, as the director
+	# did not like the book, which he did not read but someone told him it was 
+	# politically bad. 
+	# This quote is fair enough, people are more oft to hold their tongue when
+	# they may have to back up their words. Some people have a problem with the idea
+	# of society being held together by the threat of violence, but they forget that
+	# that is the very definition of laws. 
 	12)
-	cowsay "To hell with them boys. Buzzards gotta eat, same as worms."
+	cowsay "To hell with them fellas. Buzzards gotta eat, same as worms."
 	;;
-	# Josey Wales, The Outlaw Josey Wales
+	# -Josey Wales, "The Outlaw Josey Wales"
+	#
+	# Sometimes, our little human traditions are not important enough to follow.
+	# and sometimes, not following them is beneficial. In this case, burying
+	# was a waste of time. Besides, in the desert, there are always mouths to feed.
 	13)
-	cowsay "I reckon we all died a little in that damn war."
+	cowsay "They were decently treated
+	They were decently fed and then they were decently shot."
 	;;
-	# Josey Wales, The Outlaw Josey Wales
+	# -Senator Lane, "The Outlaw Josey Wales"
+	#
+	# Many vilains know they are evil, and revel in it. But a more sinister,
+	# insidious evil is those who justify their abhorrences and vileness.
+	# They have deluded themselves with twisted logic into believing they are 
+	# not as vile as they are.
+	# This is the common evil that we see everyday, the self-righteous kind.
+	# It was no accident that it's a Senator in this movie saying this. 
 	14)
 	cowsay "Temper, temper"
 	;;
-	# USS Duncan, to the USS Wisconsin battleship, after it annihilated a 
-	# North Korean howitzer battery. The 152 mm howitzer on a small 
+	# -USS Duncan, to the USS Wisconsin battleship, after it annihilated a 
+	# North Korean howitzer battery. 
+	#
+	# The 152 mm howitzer on a small 
 	# island had landed a direct hit on the massive battleship, and 
 	# in response, the USS Wisconsin had unloaded all 9 six-inch guns
-	# each firing  a 2,700 pound shell, at the gun battery, 
+	# each firing a 2,700 pound shell, at the gun battery, 
 	# which completely obliterated the location.
 	15)
 	cowsay "Show me a completely smooth operation and I'll show you someone who's covering mistakes. 
 	Real boats rock."
 	;;
-	# Frank Herbert
+	# -Frank Herbert
+	#
+	# Author of Dune. This is true, and a valuable lesson. If something looks too good, 
+	# too perfect? Usually is. Humans are not perfect, generally speaking.
 	16)
-	cowsay "A ship may be safe in harbour, but that's not what ships are built  for."
+	cowsay "A ship may be safe in harbour, but that's not what ships are built for."
 	;; 
-	# John A Shedd
+	# -John A. Shedd
+	#
+	# A great quote, one that I try to remember when going through rough times. 
+	# You are tougher than you think. 
 	17)
 	cowsay "Unlike you, whelp, I once walked the same ground as your idol. I breathed the same air as him. And I tell you this, without lie or artifice. He never wanted to become what  you have made him! He did not wish to be your god-thing. He abhorred such ideals! The slavery of your crippled, blind Imperium would sicken him, if he had eyes to see it."
 	;;
-	# Fabius Bile
+	# -Fabius Bile
+	#
+	# Put this in perspective. This is like a crusader, during the 10th or 11th century, 
+	# meeting one of Jesus's disciples, not one of the 12, but a more auxillary follower.
+	# And then telling them that everything about their religion is a lie, and not 
+	# what Jesus said. That is a wild scenario. 
 	18)
 	cowsay "Death has never been my enemy, not really. 
 	But time... Time is a bastard"
 	;;
-	# Fabius Bile
+	# -Fabius Bile
+	#
+	# I promise these are not all warhammer quotes. 
+	# Running out of time has always been an anxiety of mine, not dying,
+	# but not having enough time to finish something. Probably amplified
+	# by our piss-poor 'education' system in this country. 
 	19)
 	cowsay "If a man dedicates his life to good deeds and the welfare of others, he will die unthanked and unremembered. If he exercises his genius bringing misery and death to billions, his name will echo through the millenia for a hundred lifetimes. Infamy is always preferable to ignominy."
 	;;
-	# Fabius Bile
+	# -Fabius Bile
+	#
+	# I lied
+	# As far as villanous speeches go, this one has to be fairly up there in rank. 
+	# It almost makes you want to be just the worst to live up to it.
+	# He is right that the wicked certianly echo through history, but only for a bit. 
+	# Soon enough, they all fade. 
 	20)
-	cowsay "In the grim darkness of the far future, 
-	there is only war"
+	cowsay "In the grim darkness of the far future, there is only war"
 	;;
+	# -Every Warhammer 40k opening screen
+	#
+	# This is the catchphrase of the 40k universe, a nice summary of the state of things
+	# in the year 40,000. 
 	21)
 	cowsay "You will die as your weakling father did. Soulless, honorless, weeping, ashamed."
 	;;
-	# 
-	22)
+	# -First Captain Sigismund of the Imperial Fists
+	#
+	# He said that to Abaddon, the Despoiler, in reference to Horus Lupercal's fate
+	# at the end of the Siege of Terra. Sigismund was perhaps the greatest of his age. 
+	2
+	#2)
 	cowsay "'The time for speeches is done,' said Dorn. 'The first great test is here. My order to you all is simple, yet heed it well, and exert yourselves to see it done'
 	'They are coming. Kill them all.'"
 	;;
-	# Rogal Dorn, during the last days of the Siege of Tera
+	# -Rogal Dorn, during the last days of the Siege of Tera
+	#
+	# With reinforcements delayed by traitor sorcery, it was left to the defenders of 
+	# Terra alone stop the Warmaster's forces. It still gives me chills to read.
+	# Dorn always speaks with graviy (when being written well), and this order holds that. 
 	23)
 	cowsay "Ave Dominus Nox"
 	;;
 	# Hail to the lord of night, chant of the Night Lords
+	#
+	# The Night Lords are truly creatures of the night. Vileness made manifest,
+	# the wretched sons of a wretched master from a wretched world. 
+	# See also, "We were murderers. First, last, and always. "
 	24)
 	cowsay "Fear is the mind killer"
 	;;
-	# Litany Against Fear, from Dune
+	# Litany Against Fear, "Dune"
+	#
+	# It is little suprise that a few Dune quotes would make it into this, since
+	# there are so many 40k quotes, and 40k was so heavily 'inspired' by Dune. 
+	# This is the shortened version of the Litany Against Fear, the often quoted
+	# refrain to maintain composure. 
 	25)
 	cowsay "Fear is the mind killer
 	It is the little death that brings total obliteration.
@@ -160,26 +265,51 @@ case $intro in
 	Where the fear had gone, there shall be nothing. 
 	Only I will remain."
 	;;
-	# Litany Against Fear, from Dune
+	# Litany Against Fear, from "Dune"
+	#
+	# This is the full Litany, for those who desire more context. Read the book,
+	# and those that follow, it is well worth it. 
 	26)
 	cowsay "Only the divine are infinite"
 	;;
-	# 
+	# -Orikan the Diviner, "The Infinite and the Divine"
+	#
+	# Funny amount of reverence for the race that enslaves star gods. Probably hubris.
 	27)
 	cowsay "Zeal makes all things possible, 
 	duty makes all things simple"
 	;;
-	# First Captain Sigismund of the Imperial Fists
+	# -First Captain Sigismund of the Imperial Fists
+	#
+	# While it is true that 40k has satirical elements, to call it purely
+	# satirical is a disservice of much of the excellent writing in the black 
+	# library. Not that satires are bad, Jonathan Swift, my beloved. 
+	# This quote is just generally a good aphorism. 
 	28)
 	cowsay "Theirs was not to question why,
 	Theirs was not to give reply,
 	Theirs was just to do or die."
 	;;
-	# The Charge of the Light Brigade, Lord Tennyson Alfred
+	# From "The Charge of the Light Brigade", by Lord Tennyson Alfred
+	#
+	# In this age, many look down on the soldier, the one who makes war. It is easy,
+	# in our time and place of relative peace, to scoff at and denounce such characters.
+	# However, that is madness. Soldiers, through history, have been a large part of 
+	# what stops civilization from collapsing. They have also committed a great many
+	# crimes, but so has the general populace, and so rarely does the general populace
+	# defend the civilization from destruction, rather they often aid in its progress. 
+	# Many lives were lost, valiantly, through great effort, to hold civilization 
+	# together long enough for you to be sitting here reading this. Do not take 
+	# that sacrifice lightly. Do not waste it, either. 
 	29)
 	cowsay "I wanted to be a hero"
 	;;
-	# Talos Valcoran, Seargeant of the First Claw of the Night Lords
+	# -Talos Valcoran, Seargeant of the First Claw of the Night Lords
+	#
+	# What a soul-crushing line, by one of the Night Lords, no less.
+	# Pulled from the stock of the horrible and raised by even worse to do the 
+	# unthinkable. At some point, Talos wanted better. But he sank to the level 
+	# of his training. A pity.
 	30)
 	cowsay "My armor is contempt,
 	my sword is hatred,
@@ -187,29 +317,43 @@ case $intro in
 	in the Emperor's name, let none survive."
 	;;
 	# Unknown
+	#
+	# A litany for a space marine, oft quoted in jest in the community, because it
+	# is so over-the-top. But, that's the appeal of 40k. The ridiculous nature of it.
+	# 
 	31)
 	cowsay "They shall be my finest warriors, these men who give up themselves to me. Like clay  shall mould them and in the furnace of war I shall forge them. They shall be of iron will and steely sinew. In great armour I shall clas them and with the mightiest weapons shall they be armed. They will be untouched by plague or disease, no sickness shall blight them. They shall have such tactics, strategies and machines that no foe will best them in battle. They are my bulwark against the Terror. They are the Defenders of Humanity. They are my Space Marines...
 	and they shall know no fear."
 	;;
-	# Emperor of Mankind
+	# -Emperor of Mankind
+	#
+	# Is there a better way to introduce the Adeptus Astartes than this? 
+	# Built for war, doomed to die in it, gloriously practicing it until that day. 
 	32)
 	cowsay "The wolves were once warriors. We were murderers. First, last, and always."
 	;;
-	# Jago Sevatarion
+	# -Jago Sevatarion
+	#
+	# Again, the tragedy that is the Night Lords. Space marines are suppose to be noble,
+	# though they often fall flat, and these were never even given a chance to live up to
+	# that lofty ambition.
+	# Don't feel too bad for them, they are murdererous psychopaths, but still tragic.
 	33)
 	cowsay "I am Rylanor of the Emperor's Children, Ancient of Rites"
 	;;
-	#-Rylanor, Ancient of Rites
+	# -Rylanor, Ancient of Rites
+	#
+	#
 	34)
 	cowsay "COME SHOW ME WHAT PASSES AS FURY AMONG YOUR MISBEGOTTEN KIND!"
 	;;
-	# Force Commander
+	# -Force Commander
 	35)
 	cowsay "At some point, everything's gonna go south on you...
 	this is it. This is how I end. 
 	Now you can either accept that, or you can get to work."
 	;;
-	#-Mark Watney
+	# -Mark Watney
 	36)
 	cowsay "This is your last chance. After this there is no turning back. You take
 	the blue pill, the story ends. You wake up in your bed and believe whatever
@@ -217,26 +361,35 @@ case $intro in
 	deep the rabbithole goes. Remember, all I'm offering you is the truth. 
 	Nothing more."
 	;;
-	#-Morpheus
+	# -Morpheus, from "The Matrix"
+	#
+	# This movie was, and still is, groundbreaking. Humans being used as a neural network
+	# by the very machines they created, how fun. This quote though, speaks for itself.  
+	# Legendary.
 	37)
 	cowsay "The men and women pushed away their monsters. They rid of their terrible but in doing so, they abandoned their great, and building once delightfully wobbly, became square, and grey."
 	;;
-	#-The Great Rat, David Armsby
+	# -The Great Rat, David Armsby
 	38)
 	cowsay "You underestimate my ability to break things."
 	;;
-	#-Naomi Nagatta (The Expanse)
+	# -Naomi Nagatta (The Expanse)
+	#
+	#
 	39)
 	cowsay "Do you know what I love most about mars? They still dream. 
 	We gave up. They are an entire culture dedicated to a common goal, 
 	working together as one to turn a lifeless rock into a garden. We 
 	had a garden, and we paved it."
 	;;
-	#-Franklin Degraff (The Expanse)
+	# -Franklin Degraff (The Expanse)
 	40)
 	cowsay "He's got them walking stick legs"
 	;;
-	# Josie Collier, about Coby Gordon
+	# -Josie Collier, about Coby Gordon
+	#
+	# The swift response to this was "That's what legs are you fucking idiot"
+	# Seriously though, Coby's legs are skinny as it gets. He's a prick too.
 	41)
 	cowsay "Now you listen to me, James Hawkins. You got the 
 	making's of greatness in you. But you gotta take the helm
@@ -245,12 +398,19 @@ case $intro in
 	the cut of your sails and show what your made of. Well, I hope
 	I'm there. Catching some of the light coming off you that day."
 	;;
-	# Treasure Planet
+	# -Treasure Planet
+	#
+	# Disney's treatment of this movie is not suprising but it is tragic. 
+	# 
 	42)
 	cowsay "Not everything that can be counted counts, and not everything
 	that counts can be counted."
 	;;
-	# Albert Einstein
+	# -Albert Einstein
+	#
+	# Somewhat reminiscent of a certain hobbit's speech, I think this is an 
+	# important line for scientists to remember. The domain of science is not
+	# all-encompassing, and not all that it encompassese is worth discussing. 
 	43)
 	cowsay "I often say that when you can measure what you are speaking about 
 	and express it in numbers you know something about it; but when you cannot
@@ -258,34 +418,53 @@ case $intro in
 	it may be the beginning of knowledge but you have scarcely, in your thoughts,
 	advanced to the stage of science, whatever the matter may be."
 	;;
-	# Lord Kelvin the Based
+	# -Lord Kelvin 
+	#
+	# Lord Kelvin, the madlad. "Your knowledge is a meagre and unsatisfactory kind"
+	# Truly a legend in science, and his quotes do not dissapoint.
 	44)
 	cowsay "Minty is just cold spicy"
 	;;
 	# Laura Beth 
+	#
+	# No clue who Laura Beth is. I don't remember adding this quote, but I will
+	# leave it, because I kinda agree.
 	45)
 	cowsay "Sometimes I can feel my bones straining under the weight of 
 	all the lives I'm not living."
 	;;
-	# Jonathan Safran Foer, 'Extremely Loud and Incredibly Close'
+	# -Jonathan Safran Foer, 'Extremely Loud and Incredibly Close'
 	46)
 	cowsay "Beauty is an enormous, unmerited gift given randomly, stupidly"
 	;;
-	# Khaled Hosseini, 'And the Mountains Echoed'
+	# -Khaled Hosseini, 'And the Mountains Echoed'
+	#
+	# 
 	47)
 	cowsay "And the rest is rust and stardust"
 	;;
-	# Vladimir Nabokov, 'Lolita'
+	# -Vladimir Nabokov, 'Lolita'
+	#
+	#
 	48)
 	cowsay "It does not do well to dwell on dreams and forget to live, 
 	remember that."
 	;;
-	# Albus Dumbledore, "The Philosophers Stone"
+	# -Albus Dumbledore, "The Philosophers Stone"
+	#
+	# Dumbledore is a controversial figure, for some reason. A man who knew how to 
+	# stop the existenstial threat to civilization, and knew he must carry it out, 
+	# but loved and erred. He isn't perfect, but I don't want to know how I would 
+	# have carried it out in his place. 
+	# Rowling isn't the best author, but she was right about the power of love. 
 	49)
 	cowsay "One must be careful of books, and what is inside of them, 
 	for words have the power to change us."
 	;;
-	# Cassandra Clare, 'The Infernal Devices'
+	# -Cassandra Clare, 'The Infernal Devices'
+	#
+	# The reason I made this list and generator. Not this quote specifically, but the
+	# idea. 
 	50)
 	cowsay "The knight is a man of blood and iron, a man familiar with
 	the sight of smashed faces and the ragged stumps of lopped-off limbs; 
@@ -293,44 +472,79 @@ case $intro in
 	unobtrusive man. He is not a compromise or happy mean between ferocity and
 	meekness; he is fierce to the nth and meek to the nth."
 	;;
-	# C. S. Lewis
+	# -C.S. Lewis, "The Necessity of Chivalry"
+	#
+	# This is from an essay Lewis wrote, which I recommend you read. It is quite short.
+	# and as with most of his works, quite good. He talks of chivalry, not as the rules
+	# for horseback combat, but as the ideals of virtue. 
 	51)
-	cowsay "Twenty years from now you will be more disappointed by the things"\
-	" that you didn't do than by the ones you did do. So throw off the bowlines."\
-	" Sail away from the safe harbor. Catch the trade winds in your sails. 
+	cowsay "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. 
+	So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. 
 	Explore. Dream. Discover."
 	;;
+	#
+	#
+	# This one fills me with longing for that which never was, a burning desire for a 
+	# memory that is not mine, echoes of adventure. 
 	52)
 	cowsay "Doing things well is often a waste of time."
 	;;
-	# Robert Byrne, a master pool and billiarsd player and writer.
+	# -Robert Byrne, a master pool and billiarsd player and writer.
+	#
+	# As a programmer, this one hits home.
 	53)
 	cowsay "Science is as far removed from brute force as this sword from a crowbar."
 	;;
 	# Edward Lytton, 'Leila', Book II, Chapter I
+	#
+	# 
 	54)
-	cowsay "Whatever man prays for, he prays for a miracle. "\
-	"Every prayer reduces itself to this-
+	cowsay "Whatever man prays for, he prays for a miracle. Every prayer reduces itself to this-
 	Great God, grant that twice two be not four."
 	;;
 	# Ivan Turgenev, Russian novelist and short-story writer
+	#
+	#
 	55)
 	cowsay "Pulvis es et in pulverrem reverteris"
 	;;
 	# Genesis 3:19 
+	#
+	# I like latin
 	56)
 	cowsay "For you are dust, and to dust you shall return"
 	;;
 	# Genesis 3:19
+	#
+	# 
 	57)
-	cowsay " "
+	cowsay "But expectations were like fine pottery. The harder you held them, the more likely they were to crack."
 	;;
+	# Shallan, from "The Way of Kings"
+	#
+	# Branden Sanderson is an excellent author, and an excellent world builder.
+	# This line is so fun, and such a good line for the introduction of the character,
+	# as any who have read the first couple books. Go read them. 
+	# Series is "The Stormlight Archives" by of course, Branden Sanderson
 	58)
-	cowsay " "
+	cowsay "Momento Mori"
 	;;
+	# Latin for "Remember Death", literally
+	# 
+	# This is not meant to be a macabre statement, or ominous in any way.
+	# It is more hopeful, similar to Carpe Diam (see below). Remember death, 
+	# remember that you will die, that life is not infinite. Do something with it,
+	# live and dance and sing, love and lose and laugh and cry. For death is coming. 
+	# Tonight we drink, for tomorrow we die. 
 	59)
-	cowsay " "
+	cowsay "Carpe Diam"
 	;;
+	# Latin for "Sieze the Day", literally
+	#
+	# This quote, like the one above, is of the hopeful/motivational sort.
+	# Sieze the day, you only have so many. It also makes me a bit sad, because it 
+	# reminds me of the movie "Dead Poet's Society", which I love. And if you don't
+	# know why that makes me sad, go watch the movie. 
 	60)
 	cowsay " "
 	;;
