@@ -3,7 +3,7 @@
 # My Quote Generator Shenanigans
 #----------------------------------------------------------------
 RANDOM=$$
-intro=$(($RANDOM % 59 + 1))
+intro=$(($RANDOM % 60 + 1))
 
 case $intro in 
 	1)
@@ -545,8 +545,11 @@ case $intro in
 	# reminds me of the movie "Dead Poet's Society", which I love. And if you don't
 	# know why that makes me sad, go watch the movie. 
 	60)
-	cowsay " "
+	cowsay "You are alone, child. There is only darkness for you, and only death for your people. These ancients are just the beginning. I will command a great and terrible army, and we will sail to a billion worlds. We will sail until every light has been extinguished.
+	You are strong, child, but I am beyond strength. I am the end, and I have come for you, Finn"
 	;;
+	# Adventure Time is one of the greats. Go watch it if you have not.
+	# The Lich is as menacing as villains get, especially for a cartoon network show.
 	61)
 	cowsay " "
 	;;
