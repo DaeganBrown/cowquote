@@ -3,7 +3,7 @@
 # My Quote Generator Shenanigans
 #----------------------------------------------------------------
 RANDOM=$$
-intro=$(($RANDOM % 60 + 1))
+intro=$(($RANDOM % 64 + 1))
 
 case $intro in 
 	1)
@@ -551,17 +551,26 @@ case $intro in
 	# Adventure Time is one of the greats. Go watch it if you have not.
 	# The Lich is as menacing as villains get, especially for a cartoon network show.
 	61)
-	cowsay " "
+	cowsay "Some people never go crazy. What truly horrible lives they must lead. Boring damned people. Propagating more boring damned people. What a horror show. The earth swarmed with them!"
 	;;
+	# Bukowski
+	# PRovided by Raven
 	62)
-	cowsay " "
+	cowsay "Tell all who will hear, the Reaper sails for Mars.
+	And he calls for an Iron Rain."
 	;;
+	# From "Golden Son" by Pierce Brown
+	# 
+	# Read the Red Rising series. 
 	63)
-	cowsay " "
+	cowsay "I never needed you love in return. All I ever wished was for your heart to be at peace."
 	;;
 	64)
-	cowsay " "
+	cowsay "For you, a thousand times over."
 	;;
+	# From "The Kiterunner" by Khaled Hosseini
+	#
+	# I'm gonna have to read Hosseini if one more person gives me a good quote from him.
 	65)
 	cowsay " "
 	;;
