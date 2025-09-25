@@ -3,7 +3,7 @@
 # My Quote Generator Shenanigans
 #----------------------------------------------------------------
 RANDOM=$$
-intro=$(($RANDOM % 64 + 1))
+intro=$(($RANDOM % 65 + 1))
 
 case $intro in 
 	1)
@@ -572,10 +572,13 @@ case $intro in
 	#
 	# I'm gonna have to read Hosseini if one more person gives me a good quote from him.
 	65)
-	cowsay " "
+	cowsay "We were together. I forget the rest."
 	;;
+	# Walt Whitman
+	#
+	# Quote given by Jenna Walker, at the (Green) Bus (stop) Coffee shop and pub. 
 	66)
-	cowsay " "
+	cowsay ""
 	;;
 	67)
 	cowsay " "
