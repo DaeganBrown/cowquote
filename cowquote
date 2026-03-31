@@ -3,7 +3,7 @@
 # My Quote Generator Shenanigans
 #----------------------------------------------------------------
 RANDOM=$$
-intro=$(($RANDOM % 65 + 1))
+intro=$(($RANDOM % 66 + 1))
 
 case $intro in 
 	1)
@@ -578,8 +578,11 @@ case $intro in
 	#
 	# Quote given by Jenna Walker, at the (Green) Bus (stop) Coffee shop and pub. 
 	66)
-	cowsay ""
+	cowsay "thinking about 'you haven't met all the people who will love you' and like! you also haven't found all the things that will make you happy! there will always be new authors and musicians and artists whose work you will one day discover and love! there will always be new hobbies and skills for you to learna nd feel fulfilled by! there will always be new things around the corner that will bring sudden and unexpected happiness!"
 	;;
+	# user "untiloblivions" on tumblr, adjusted for my sanity
+	#
+	# Given by Maggie in the library
 	67)
 	cowsay " "
 	;;
